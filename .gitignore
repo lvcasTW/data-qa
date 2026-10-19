@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated Pipeline Data (keep folders tracked via .gitkeep)
+data/bronze/*.csv
+data/silver/*.csv
+data/quarantine/*.csv
+data/gold/*.csv
+!data/**/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.idea/
+.vscode/
+*.swp
+*.swo
